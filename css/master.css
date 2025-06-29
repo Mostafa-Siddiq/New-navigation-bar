@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+    background-image: url("/images/mount-everest-aerial-view-himalayas-istock-3745.jpg");
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+header {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 600px;
+}
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width:768px) {
+    .container {
+        width: 750x;
+    }
+}
+.container h3 {
+    font-size: 32px
+
+}
